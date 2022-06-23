@@ -56,7 +56,6 @@ public class StepTracker {
     }
 
     class MonthData {
-        // Заполните класс самостоятельно
         private final int[] stepsByDay = new int[30];
 
         public int[] getStepsPerMonth() {

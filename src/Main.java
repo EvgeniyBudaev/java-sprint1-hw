@@ -61,9 +61,6 @@ public class Main {
                     else break;
                 }
                 stepTracker.setStepsNumberTarget(steps);
-            } else if (userInput  == 0) {
-                System.out.println("Выход");
-                break;
             } else {
                 System.out.println("Извините, такой команды пока нет.");
             }
@@ -72,6 +69,7 @@ public class Main {
             userInput = scanner.nextInt();
         }
         System.out.println("Программа завершена");
+        scanner.close();
     }
 
     public static void printMenu() {
